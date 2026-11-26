@@ -131,6 +131,7 @@ export default function Navbar() {
                     aria-expanded={isOpen}
                     onClick={() => setOpenMenu(isOpen ? null : item.label)}
                   >
+                    
                     {item.label}
                   </button>
                 )}
